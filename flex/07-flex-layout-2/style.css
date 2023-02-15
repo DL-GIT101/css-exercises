@@ -10,12 +10,11 @@ body {
   height: 72px;
   background: darkmagenta;
   color: white;
+  display: flex;
+  align-items: center;
+  padding: 0 16px;
   font-size: 32px;
   font-weight: 900;
-}
-
-.text{
-  padding: 16px;
 }
 
 .middle {
@@ -46,28 +45,25 @@ ul {
 }
 
 li {
-  color: white;
   margin-bottom: 16px;
 }
 a {
   color: white;
   text-decoration: none;
-  
+  font-size: 24px;
 }
 
 .content {
+  padding: 32px;
   display: flex;
   flex-wrap: wrap;
-  padding: 16px;
-  
 }
 
 .card {
   border: 1px solid #eee;
   box-shadow: 2px 4px 16px rgba(0,0,0,.06);
   border-radius: 4px;
-  max-height: 300px;
-  max-width: 250px;
+  width: 300px;
   padding: 16px;
-  margin: 8px;
+  margin: 16px;
 }
